@@ -40,10 +40,10 @@ const IndexPage = () => (
 					title='Raise Durham'
 					tagline='Raise is a charitable movement encouraging students to adopt a positive approach towards deliberate, effective giving.'
 					statistics={{
-						years: 1 + 1,
+						years: 3,
 						students: 122 + 108,
-						raised: 30714 + 13430,
-						protected: 37867 + convert.moneyToPeopleProtected('gbp', 1334075),
+						raised: 30714 + 13430 + 1943,
+						protected: convert.moneyToPeopleProtected('gbp', 46087_00),
 					}}
 				/>
 				<Button variant='outline' size='large' className='mt-4 mb-12' href='donate/'>Donate</Button>
@@ -63,13 +63,13 @@ const IndexPage = () => (
 				<Panel
 					image={<Doubled className='h-16 mb-4' />}
 					title='Doubled'
-					text='Thanks to our matched funding, 200% of the money you donate goes directly to AMF. That means that your £75, when doubled, can help protect over 170 people from malaria!'
+					text='Thanks to our matched funding, an extra 100% of the money you donate goes directly to AMF—no matter which charity your personal donation goes to. If you give to the AMF, your doubled £75 can help protect over 170 people from malaria!'
 					className='bg-raise-red'
 				/>
 				<Panel
 					image={<Party className='h-16 mb-4' />}
 					title='Celebrate'
-					text="In third term, we come together as a community to celebrate the end of the academic year and our collective impact. There's food and drink, great company and live entertainment!"
+					text="In Easter term, we come together as a community to celebrate the end of the academic year and our collective impact. There's food and drink, great company and live entertainment!"
 					className='bg-raise-yellow text-black'
 				/>
 			</div>
@@ -92,7 +92,7 @@ const IndexPage = () => (
 					<p>
 						Awesome! You can get involved by filling in the form
 						{' '}
-						<a href='https://docs.google.com/forms/d/e/1FAIpQLSfuFT0mYeX0mXhy4Cu5QFhYc4NZOcCO2Q2kWSSQhv-I-lsaCA/viewform?usp=sf_link'>here</a>
+						<a href='https://docs.google.com/forms/d/e/1FAIpQLSdxjFst75hu6TmkhJMEfvThfaHuAkvX8yMQq-Q2V0N5_xsPfA/viewform?usp=header'>here</a>
 						!
 					</p>
 				</FAQ>
@@ -112,7 +112,7 @@ const IndexPage = () => (
 						interested in hearing from people who want to get involved -
 						register your interest
 						{' '}
-						<a href='https://docs.google.com/forms/d/e/1FAIpQLSfuFT0mYeX0mXhy4Cu5QFhYc4NZOcCO2Q2kWSSQhv-I-lsaCA/viewform?usp=sf_link'>here</a>
+						<a href='https://docs.google.com/forms/d/e/1FAIpQLSdxjFst75hu6TmkhJMEfvThfaHuAkvX8yMQq-Q2V0N5_xsPfA/viewform?usp=header'>here</a>
 						! See below
 						for more details on what a Raise rep does.
 					</p>
@@ -142,7 +142,10 @@ const IndexPage = () => (
 						we do, from events and partnerships to fundraising and publicity.
 						Applications for the next academic year will open in the spring, but
 						we're always interested in hearing from people who want to get
-						involved!
+						involved—
+						{' '}
+						<a href='#contact'>send us an email</a>
+						!
 					</p>
 					<p>
 						<b>Sponsorship:</b>
